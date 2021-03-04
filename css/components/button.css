@@ -1,0 +1,17 @@
+#btn-yours {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #062D75;
+  color: yellow;
+  font-weight: bold;
+  border-radius: 15px;
+  border-style: outset;
+  border-width: 3px;
+  border-color: yellow;
+}
+
+#btn-yours:hover {
+  color: #062D75;
+  background-color: yellow;
+  border-color: #062D75;
+}

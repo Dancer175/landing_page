@@ -1,0 +1,83 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Source+Sans+Pro&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Importing all components file */
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/footer.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #062D75;
+}
+
+h1, h2, h3, h4 {
+font-family: 'Creepster', cursive;
+}
+
+h3 {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  line-height: 105px;
+}
+
+.banner p {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.banner a {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+.banner span {
+    background-color: rgba(255, 255, 0, 70%);
+}
+
+.card p {
+  font-size: 18px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner h1 {
+    font-size: 60px;
+    line-height: 75px;
+  }
+
+  .banner p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .footer p {
+    font-size: 20px;
+  }
+}

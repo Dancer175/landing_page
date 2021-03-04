@@ -1,0 +1,40 @@
+.footer {
+  background-color: yellow;
+  width: 100vw;
+  height: 25vh;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  display: inline-block;
+}
+
+.footer i {
+  font-size: 50px;
+  margin: 5px;
+  color:#062D75;
+}
+
+.footer i:hover {
+  color: #D42F2C;
+}
+
+.footer p {
+  font-size: 25px;
+  display: block;
+  position: sticky;
+  bottom: 0;
+}
+
+@media (max-width: 400px) {
+  /* For a screen < 540px, this CSS will be read */
+  .footer {
+    padding-top: 30px;
+  }
+}

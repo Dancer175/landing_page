@@ -1,0 +1,9 @@
+.banner {
+  background-image: url(../../images/Poubelle.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 10vh;
+}
